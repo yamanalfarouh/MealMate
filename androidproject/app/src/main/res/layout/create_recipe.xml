@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- EditText for ingredients -->
+        <EditText
+            android:id="@+id/ingredientsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#90EE90"
+            android:backgroundTint="#90EE90"
+            android:gravity="top"
+            android:hint="Enter ingredients"
+            android:inputType="textMultiLine"
+            android:overScrollMode="always"
+            android:scrollbars="vertical" />
+
+        <!-- EditText for instructions -->
+
+        <!-- Button to select image -->
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/instructionsEditText"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#90EE90"
+            android:backgroundTint="#90EE90"
+            android:gravity="top"
+            android:hint="Enter instructions"
+            android:inputType="textMultiLine"
+            android:overScrollMode="always"
+            android:scrollbars="vertical" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+
+        <EditText
+            android:id="@+id/instructionsEditText3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#90EE90"
+            android:backgroundTint="#90EE90"
+            android:gravity="top"
+            android:hint="Enter recipe name"
+            android:inputType="textMultiLine"
+            android:overScrollMode="always"
+            android:scrollbars="vertical" />
+
+        <Button
+            android:id="@+id/selectImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#FF000000"
+            android:text="Select Recipe Image" />
+
+        <!-- ImageView to show selected image -->
+        <ImageView
+            android:id="@+id/recipeImageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Recipe Image" />
+
+        <!-- Button to submit and view the recipe -->
+        <Button
+            android:id="@+id/viewRecipeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="View Recipe"
+
+            android:backgroundTint="#FF000000"/>
+
+        <!-- TextView to display recipe details -->
+        <TextView
+            android:id="@+id/recipeDetailsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#f0f0f0"
+            android:padding="8dp"
+            android:text="Recipe details will be displayed here"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recipeDetailsTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#f0f0f0"
+            android:padding="8dp"
+            android:text="Recipe details will be displayed here"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/addcreatbutt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add meal" />
+
+
+    </LinearLayout>
+
+</ScrollView>

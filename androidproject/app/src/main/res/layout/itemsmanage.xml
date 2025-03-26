@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".itemsmanage">
+
+    <!-- Fixed Image at the Top -->
+    <ImageView
+        android:id="@+id/top_image"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bggroc" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textviewnamespah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/top_image"
+        android:layout_centerHorizontal="true"
+        android:background="#040404"
+        android:text="Grocery List"
+        android:textColor="@color/green"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:padding="8dp" />
+
+    <!-- RecyclerView for Grocery List -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/groceryRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_image"
+        android:layout_marginTop="68dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/sendSmsButton"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="76dp"
+        android:text="Delegate" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="55dp"
+        android:layout_height="53dp"
+        android:layout_alignBottom="@+id/top_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="356dp"
+        android:layout_marginBottom="204dp"
+        app:srcCompat="@drawable/arrowback" />
+</RelativeLayout>

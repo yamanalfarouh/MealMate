@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Fixed Image at the Top -->
+
+    <!-- Scrollable Content Below -->
+    <ImageView
+        android:id="@+id/top_image"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+
+        android:scaleType="centerCrop"
+        android:src="@drawable/bggroc" />
+
+    <ScrollView
+        android:id="@+id/scroll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_image"
+        android:layout_marginTop="0dp"
+        android:fillViewport="true"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageButton
+                android:id="@+id/myImageButton8"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:contentDescription="My Button"
+                android:scaleType="fitCenter"
+                android:src="@drawable/aldi" />
+
+            <View
+                android:id="@+id/view12"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <ImageButton
+                android:id="@+id/myImageButton7"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:contentDescription="My Button"
+                android:scaleType="fitCenter"
+                android:src="@drawable/tesco" />
+
+            <View
+                android:id="@+id/view13"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <ImageButton
+                android:id="@+id/myImageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:contentDescription="My Button"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sainsbuys" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+            <ImageButton
+                android:id="@+id/myImageButton4"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:contentDescription="My Button"
+                android:scaleType="fitCenter"
+                android:src="@drawable/lidl" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+            <ImageButton
+                android:id="@+id/myImageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:contentDescription="My Button"
+                android:scaleType="fitCenter"
+                android:src="@drawable/iceland" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textviewnamespah"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/top_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="22dp"
+        android:background="#040404"
+        android:backgroundTint="#040404"
+        android:selectAllOnFocus="false"
+        android:shadowColor="#050505"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="Your favorite grocery stores"
+        android:textColor="@color/green"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="82dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/top_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="329dp"
+        android:layout_marginBottom="177dp"
+        app:srcCompat="@drawable/arrowback" />
+</RelativeLayout>

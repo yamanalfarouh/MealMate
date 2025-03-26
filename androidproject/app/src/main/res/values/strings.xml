@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">MEALMATE</string>
+    <string name="formatted_texttt"><b>Grocery list</b> </string>
+        <string name="formatted_text">
+Chicken
+\nLettuce
+\nBell peppers
+\nCarrots
+\nGarlic
+\nGinger
+\nSoy sauce
+\nHoney (or sugar)
+\nCooking oil (e.g., vegetable or sesame oil)</string>
+
+<string name="instructionchicken">
+
+    <b>Prepare Ingredients:</b>
+    \nWash and chop the vegetables (e.g., lettuce, bell peppers, carrots).
+    \nSlice the chicken into thin strips.
+    \n\n<b>Make the Sauce:</b>
+    \nMix soy sauce, garlic, ginger, and a touch of honey or sugar in a small bowl.
+    \n\n<b>Cook the Chicken:</b>
+    \nHeat oil in a pan or wok over medium-high heat.
+    \nAdd the chicken strips and cook until browned and fully cooked through.
+    \nRemove and set aside.
+    \n\n<b>Stir-Fry the Vegetables:</b>
+    \nAdd a bit more oil to the same pan.
+    \nStir-fry the vegetables, starting with the firmer ones like carrots, then adding softer ones like bell peppers and lettuce.
+    \n\n<b>Combine and Sauce:</b>
+    \nReturn the chicken to the pan.
+    \nPour the sauce over the chicken and vegetables.
+    \nToss everything together until evenly coated and heated through.
+   \n\n<b>Serve:</b>
+    \nServe hot over rice or noodles, or enjoy as is!
+</string>
+
+    <string name="VegetableQuinoaBowl">
+        <b>Cook the Quinoa:</b>
+
+\nRinse 1 cup of quinoa under cold water to remove any bitter coating.
+\nIn a medium saucepan, combine the quinoa with 2 cups of water or vegetable broth.
+\nBring it to a boil, then reduce the heat to low and cover.
+\nSimmer for about 15 minutes, or until the water is absorbed and the quinoa is fluffy. Remove from heat and let it sit for 5 minutes, then fluff with a fork.
+\n\n<b>Prepare the Vegetables:</b>
+
+\nWhile the quinoa is cooking, chop your choice of vegetables. Some good options include bell peppers, zucchini, carrots, cherry tomatoes, broccoli, or spinach.
+\nHeat a tablespoon of olive oil in a pan over medium heat.
+\nAdd the vegetables and sauté until tender but still vibrant (about 5-7 minutes).
+\nSeason with salt, pepper, and any herbs or spices you prefer (such as garlic powder, paprika, or chili flakes).
+\n\n<b>Assemble the Bowl:</b>
+
+\nIn a large bowl, combine the cooked quinoa and sautéed vegetables.
+\nAdd a protein source like chickpeas, grilled chicken, or tofu if desired.
+\nTop with fresh ingredients like avocado slices, a squeeze of lemon or lime, and a drizzle of olive oil.
+\n\n<b>Optional Toppings:</b>
+
+\nAdd some crunch with nuts or seeds (such as pumpkin seeds, sunflower seeds, or almonds).
+\nGarnish with fresh herbs like cilantro, parsley, or basil.
+\n\n<b>Serve and Enjoy:</b>
+
+\nToss everything together, and your vegetable quinoa bowl is ready to be served!
+
+
+
+
+
+    </string>
+
+    <string name="Grocerybowl">
+
+Quinoa
+\nOlive oil
+\nVegetables (such as bell peppers, zucchini, carrots, cherry tomatoes, broccoli, spinach)
+\nProtein (chickpeas, tofu, or chicken)
+\nAvocado
+\nLemon or lime
+\nSalt
+\nPepper
+\nHerbs and spices (garlic powder, paprika, chili flakes, etc.)
+\nOptional toppings (nuts, seeds, fresh herbs)
+
+
+
+
+    </string>
+
+
+
+
+    <string name="spaghh">
+
+        <b>Cook the Spaghetti:</b>
+
+\nBring a large pot of salted water to a boil.
+\nAdd the spaghetti and cook according to the package instructions until al dente.
+\nSave 1 cup of pasta water before draining the spaghetti.
+        \n\n<b>Prepare the Sauce:</b>
+
+\nIn a mixing bowl, whisk together eggs and grated cheese (such as Pecorino Romano or Parmesan) until smooth and creamy.
+\nAdd black pepper to taste and set aside.
+\n\n<b>Cook the Guanciale (or Bacon):</b>
+\nIn a large pan, heat a bit of olive oil over medium heat.
+\nAdd sliced guanciale (or pancetta or bacon if using) and cook until crispy and browned, about 5-7 minutes.
+\nOnce done, remove from heat and set aside.
+\n\n<b>Combine Pasta and Sauce:</b>
+
+\nAdd the drained pasta to the pan with the guanciale.
+\nPour in the egg and cheese mixture, quickly tossing everything together, allowing the residual heat from the pasta and pan to cook the sauce. Be sure not to scramble the eggs; the heat should create a creamy sauce.
+\nIf the sauce is too thick, add a bit of reserved pasta water to achieve the desired consistency.
+\n\n<b>Serve:</b>
+
+\nServe immediately with extra grated cheese and black pepper on top for extra flavor.
+
+
+
+    </string>
+
+    <string name="grocspah">
+
+
+Spaghetti
+\nEggs
+\nPecorino Romano or Parmesan cheese (grated)
+\nBlack pepper
+\nGuanciale (or pancetta or bacon)
+\nOlive oil
+
+    </string>
+</resources>

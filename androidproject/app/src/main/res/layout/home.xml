@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:alpha="0.7">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="91dp"
+            android:layout_marginBottom="792dp"
+            android:fontFamily="sans-serif-medium"
+            android:shadowColor="#0B0808"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="30"
+            android:text="MealMate"
+            android:textColor="@color/white"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="49dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/textView3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="361dp"
+            android:layout_marginBottom="-18dp"
+            android:clickable="true"
+            android:onClick="gotootherpagge"
+            app:srcCompat="@drawable/baseline_logout_24" />
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="-20dp"
+        app:cardCornerRadius="28dp"
+        app:cardBackgroundColor="@android:color/transparent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="30dp"
+            android:background="@drawable/foodbgggg">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:orientation="vertical"
+                android:padding="28dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="271dp"
+                    android:orientation="horizontal">
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewPager"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/custom_layout" >
+
+                        <View
+                            android:id="@+id/view4"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp" />
+                    </androidx.viewpager.widget.ViewPager>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/button_shadow"
+                    android:elevation="0dp"
+                    android:left="6dp"
+                    android:onClick="gotootherpaggeecreate"
+                    android:shadowColor="#FAF6F6"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+
+                    android:shadowRadius="2"
+                    android:text="Create meal"
+                    android:textColor="#0D0C0C"
+                    android:textSize="24sp"
+                    android:top="6dp"
+                    app:backgroundTint="@color/green"
+                    app:cornerRadius="32dp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/button_shadow"
+                    android:elevation="0dp"
+                    android:left="6dp"
+                    android:onClick="gotootherpaggeerecipe"
+                    android:shadowColor="#F6F1F1"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+
+                    android:shadowRadius="2"
+                    android:text="Create recipe"
+                    android:textColor="#040404"
+                    android:textSize="24sp"
+                    android:top="6dp"
+                    app:backgroundTint="@color/green"
+                    app:cornerRadius="32dp" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/button_shadow"
+                    android:elevation="0dp"
+                    android:left="6dp"
+                    android:onClick="gotootherpaggeegrocery"
+                    android:shadowColor="#F0ECEC"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+
+                    android:shadowRadius="2"
+                    android:text="View grocery store"
+                    android:textColor="#070707"
+                    android:textSize="24sp"
+                    android:top="6dp"
+                    app:backgroundTint="@color/green"
+                    app:cornerRadius="32dp" />
+
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

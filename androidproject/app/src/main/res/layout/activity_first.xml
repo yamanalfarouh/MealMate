@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Fixed Image at the Top -->
+
+    <!-- Scrollable Content Below -->
+    <ImageView
+        android:id="@+id/top_image"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+
+        android:scaleType="centerCrop"
+        android:src="@drawable/ccapture" />
+
+    <ScrollView
+        android:id="@+id/scroll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_image"
+        android:layout_marginTop="0dp"
+        android:fillViewport="true"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/chickenbutt"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:onClick="gotootherpage"
+                android:text="Add Meal"
+                android:backgroundTint="#FF000000"
+                android:textSize="20sp"
+                app:cornerRadius="32dp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="495dp"
+                android:text="@string/instructionchicken"
+
+                 android:textSize="20sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="387dp"
+                android:layout_height="31dp"
+                android:text="@string/formatted_texttt"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="381dp"
+                android:layout_height="265dp"
+                android:text="@string/formatted_text"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/chickenstir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/top_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="8dp"
+        android:selectAllOnFocus="false"
+        android:shadowColor="#101010"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="Chicken Stir Fry"
+        android:textColor="@color/green"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="55dp"
+        android:layout_height="53dp"
+        android:layout_alignBottom="@+id/top_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="356dp"
+        android:layout_marginBottom="204dp"
+        app:srcCompat="@drawable/arrowback" />
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Fixed Image at the Top -->
+
+    <!-- Scrollable Content Below -->
+    <ImageView
+        android:id="@+id/top_image"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+
+        android:scaleType="centerCrop"
+        android:src="@drawable/recipeimagespagh" />
+
+    <ScrollView
+        android:id="@+id/scroll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top_image"
+        android:layout_marginTop="0dp"
+        android:fillViewport="true"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/addmealspah"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:onClick="gotootherpage"
+                android:text="Add Meal"
+                android:backgroundTint="#FF000000"
+                android:textSize="20sp"
+                app:cornerRadius="32dp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="939dp"
+                android:text="@string/spaghh"
+
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grocery list"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="390dp"
+                android:text="@string/grocspah"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textviewnamespah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/top_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="18dp"
+        android:background="#040404"
+        android:backgroundTint="#040404"
+        android:selectAllOnFocus="false"
+        android:shadowColor="#050505"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="Spaghetti Carbonara"
+        android:textColor="@color/green"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="55dp"
+        android:layout_height="53dp"
+        android:layout_alignBottom="@+id/top_image"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="356dp"
+        android:layout_marginBottom="204dp"
+        app:srcCompat="@drawable/arrowback" />
+</RelativeLayout>

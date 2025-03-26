@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+
+    android:gravity="center_vertical">
+
+    <!-- Item Name -->
+    <TextView
+        android:id="@+id/itemTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Item Name"
+        android:textSize="18sp" />
+
+    <!-- Purchased Checkbox -->
+
+    <!-- Edit Button -->
+    <CheckBox
+        android:id="@+id/purchasedCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:text="Purchased" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:layout_marginStart="8dp" />
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginStart="8dp" />
+
+    <!-- Edit Text (Initially invisible) -->
+    <EditText
+        android:id="@+id/editTextItemName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:text=""
+        android:inputType="text" />
+</LinearLayout>
